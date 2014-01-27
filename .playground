@@ -1,0 +1,5 @@
+{
+  "template_name" : "Bottle web framework",
+  "template_description" : "Skeleton app based on the Bottle Web Framework (http://bottlepy.org/)",
+  "open_files": ["main.py"]
+}

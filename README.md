@@ -3,9 +3,6 @@
 A skeleton for building Python applications on Google App Engine with the
 [Bottle micro framework](http://bottlepy.org) version 0.11.6
 
-This skeleton is targeted at web applications, but can easily be
-modified for other use cases.  A directory structure is included:
-
 See our other [Google Cloud Platform github
 repos](https://github.com/GoogleCloudPlatform) for other sample applications.
 
@@ -22,7 +19,7 @@ See the README file for directions. You'll need python 2.7 and [pip 1.4 or later
    can only import libraries from inside your project directory.
 
    ```
-   cd <project_directory>
+   cd appengine-python-bottle-skeleton
    pip install -r requirements.txt -t lib/
    ```
 4. Run this project locally from the command line:
@@ -80,6 +77,4 @@ See [CONTRIB.md](CONTRIB.md)
 See [LICENSE](LICENSE)
 
 ## Authors
-Logan Henriquez
-
-Johan Euphrosine
+Logan Henriquez and Johan Euphrosine

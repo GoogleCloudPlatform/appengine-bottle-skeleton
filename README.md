@@ -81,4 +81,5 @@ See [LICENSE](LICENSE)
 
 ## Authors
 Logan Henriquez
+
 Johan Euphrosine

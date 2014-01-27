@@ -1,0 +1,4 @@
+This file ensures that the server/lib directory is present in the
+repo so installers don't get an error when running pip if they've
+forgotten to create the directory beforehand.  Delete at your
+leisure after initial project creation.

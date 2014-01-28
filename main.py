@@ -11,12 +11,10 @@ from bottle import Bottle
 # application is embedded within an App Engine WSGI application server.
 bottle = Bottle()
 
-
 @bottle.route('/')
 def home():
     """ Return Hello World at application root URL"""
     return 'Hello World'
-
 
 @bottle.error(404)
 def error_404(error):

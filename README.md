@@ -15,8 +15,8 @@ See the README file for directions. You'll need python 2.7 and [pip 1.4 or later
    ```
    git clone https://github.com/GoogleCloudPlatform/appengine-python-bottle-skeleton.git
    ```
-3. Install dependencies in the project's lib/ directory - App Engine
-   can only import libraries from inside your project directory.
+3. Install dependencies in the project's `lib/` directory.
+   Note: App Engine can only import libraries from inside your project directory.
 
    ```
    cd appengine-python-bottle-skeleton
@@ -25,7 +25,7 @@ See the README file for directions. You'll need python 2.7 and [pip 1.4 or later
 4. Run this project locally from the command line:
 
    ```
-   dev_appserver.py <projectDirectory>
+   dev_appserver.py .
    ```
 
 Open [http://localhost:8080](http://localhost:8080)
@@ -42,7 +42,7 @@ To deploy the application:
    application](https://developers.google.com/appengine/docs/python/tools/uploadinganapp) with
 
 ```
-appcfg.py -A <your-project-id> --oauth2 update <projectDirectory>
+appcfg.py -A <your-project-id> --oauth2 update .
 ```
 1. Congratulations! Your application is now live at your-project-id.appspot.com
 

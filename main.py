@@ -14,13 +14,11 @@ bottle = Bottle()
 
 @bottle.route('/')
 def home():
-  """ Return Hello World at application root URL"""
-  return 'Hello World'
+    """ Return Hello World at application root URL"""
+    return 'Hello World'
 
 
 @bottle.error(404)
 def error_404(error):
-  """Return a custom 404 error."""
-  return 'Sorry, Nothing at this URL.'
-
-
+    """Return a custom 404 error."""
+    return 'Sorry, Nothing at this URL.'

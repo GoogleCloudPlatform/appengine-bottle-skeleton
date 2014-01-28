@@ -1,26 +1,22 @@
-"""`main` is the top level module for your Bottle application.
-
-Loads the Bottle framework and adds a custom error
-handler.
-"""
+"""`main` is the top level module for your Bottle application."""
 
 # import the Bottle framework
 from bottle import Bottle
 
-# Run the Bottle wsgi application. We don't need to call run() since our
-# application is embedded within an App Engine WSGI application server.
+# Create the Bottle WSGI application.
 bottle = Bottle()
+# We don't need to call run() since our application is embedded within                                                                                                         
+# the App Engine WSGI application server. 
 
-
+# Define an handler for the root URL of our application.
 @bottle.route('/')
-def home():
-  """ Return Hello World at application root URL"""
+def hello():
+  """Return a friendly HTTP greeting."""
   return 'Hello World'
 
 
+# Define an handler for 404 errors.
 @bottle.error(404)
 def error_404(error):
   """Return a custom 404 error."""
   return 'Sorry, Nothing at this URL.'
-
-

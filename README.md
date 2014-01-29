@@ -74,7 +74,12 @@ feedback on this repo and to ask for skeletons for other frameworks or use cases
 See [CONTRIB.md](CONTRIB.md)
 
 ## Licensing
-See [LICENSE](LICENSE)
+Note, this project includes source files that are licensed under terms
+other than Apache 2.0.
+
+* This project's source code: See [LICENSE](LICENSE) file.
+
+* Bottle Microframe work: See [bottle.py](bottle.py) file.
 
 ## Authors
 Logan Henriquez and Johan Euphrosine

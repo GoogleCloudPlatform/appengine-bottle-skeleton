@@ -42,7 +42,7 @@ To deploy the application:
    application](https://developers.google.com/appengine/docs/python/tools/uploadinganapp) with
 
 ```
-appcfg.py -A <your-project-id> --oauth2 update .
+gcloud app deploy
 ```
 1. Congratulations! Your application is now live at your-project-id.appspot.com
 
